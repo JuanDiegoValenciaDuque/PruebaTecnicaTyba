@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="7125d4fe729de9babf4bd729e20f67afc06426f45eb60996e486fe9692cdbbad.html">Crear Cuenta</a></span>
+                > <span class="truncate-60"><a
+                    href="c7d15ac7118f8ff88cc37c3288ea82ff285e251ba56893779c88a048d14dd6d0.html">Crear cuenta </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-08-2022 00:07</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Crear Cuenta </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                El usuario desea crear un nueva cuenta
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Crear cuenta
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Desea crear cuenta<br>When ingresa al formulario de creacion<br>And diligencia el formulario con los valores &lt;userName&gt; &lt;email&gt; &lt;password&gt; &lt;confirmPassword&gt;<br>Then Valida que el usuario &lt;userName&gt; esta logueado correctamente</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="b33a2716edefc3d9446a69ab9978ff5d93c7843a6a630fbaf299c28aaeea7ad8.png" title=" Example #1: {userName=JuanDValencia4, email=JuanDValencia@email.com, password=Ab1234, confirmPassword=Ab1234}" width="1920"/>
+                <img src="b33a2716edefc3d9446a69ab9978ff5d93c7843a6a630fbaf299c28aaeea7ad8.png" title=" Given Desea crear cuenta" width="1920"/>
+                <img src="b33a2716edefc3d9446a69ab9978ff5d93c7843a6a630fbaf299c28aaeea7ad8.png" title=" that Juan Diego is in AdvantageShopping home page" width="1920"/>
+                <img src="b33a2716edefc3d9446a69ab9978ff5d93c7843a6a630fbaf299c28aaeea7ad8.png" title=" Juan Diego opens the Home page" width="1920"/>
+                <img src="b33a2716edefc3d9446a69ab9978ff5d93c7843a6a630fbaf299c28aaeea7ad8.png" title=" Then shopping visible" width="1920"/>
+                <img src="b33a2716edefc3d9446a69ab9978ff5d93c7843a6a630fbaf299c28aaeea7ad8.png" title=" Then shopping visible (completed)" width="1920"/>
+                <img src="b33a2716edefc3d9446a69ab9978ff5d93c7843a6a630fbaf299c28aaeea7ad8.png" title=" that Juan Diego is in AdvantageShopping home page (completed)" width="1920"/>
+                <img src="b33a2716edefc3d9446a69ab9978ff5d93c7843a6a630fbaf299c28aaeea7ad8.png" title=" Given Desea crear cuenta (completed)" width="1920"/>
+                <img src="b33a2716edefc3d9446a69ab9978ff5d93c7843a6a630fbaf299c28aaeea7ad8.png" title=" When ingresa al formulario de creacion" width="1920"/>
+                <img src="a5236ad837b9dfbbb1f1a3de22d40c0d68a83ad4524ae1c1fb13cfd0c0f78090.png" title=" Juan diego open create account" width="1920"/>
+                <img src="a5236ad837b9dfbbb1f1a3de22d40c0d68a83ad4524ae1c1fb13cfd0c0f78090.png" title=" Juan Diego clicks on menuUser" width="1920"/>
+                <img src="802589b0301bf4c2966c9c2fef84b1a3eadb1e0414edd4654ea6479db2a45fba.png" title=" Juan Diego clicks on menuUser (completed)" width="1920"/>
+                <img src="706dfbaea76fde10633a513fb0c0cadd4559f3fc41b18ea39c013f12e23dcfff.png" title=" Juan Diego clicks on newAccount" width="1920"/>
+                <img src="993d48294363f5c212877291bded401e26dfeda6af5622b32633291c7b827b8a.png" title=" Juan Diego clicks on newAccount (completed)" width="1920"/>
+                <img src="993d48294363f5c212877291bded401e26dfeda6af5622b32633291c7b827b8a.png" title=" Juan diego open create account (completed)" width="1920"/>
+                <img src="993d48294363f5c212877291bded401e26dfeda6af5622b32633291c7b827b8a.png" title=" When ingresa al formulario de creacion (completed)" width="1920"/>
+                <img src="993d48294363f5c212877291bded401e26dfeda6af5622b32633291c7b827b8a.png" title=" And diligencia el formulario con los valores JuanDValencia4 JuanDValencia@email.com Ab1234 Ab1234" width="1920"/>
+                <img src="993d48294363f5c212877291bded401e26dfeda6af5622b32633291c7b827b8a.png" title=" Juan diego diligenciar formulario" width="1920"/>
+                <img src="993d48294363f5c212877291bded401e26dfeda6af5622b32633291c7b827b8a.png" title=" Juan Diego enters 'JuanDValencia4' into newUser" width="1920"/>
+                <img src="1b71bb58aedb437c78e65cd420dc4f31ba8f617acedde1adc226ea0ff61730c4.png" title=" Juan Diego enters 'JuanDValencia4' into newUser (completed)" width="1920"/>
+                <img src="1b71bb58aedb437c78e65cd420dc4f31ba8f617acedde1adc226ea0ff61730c4.png" title=" Juan Diego enters 'JuanDValencia@email.com' into newEmail" width="1920"/>
+                <img src="089053e88f9f354066f2fb9ba4f67e83c758be62b8a98f8565a4c6b965c2272f.png" title=" Juan Diego enters 'JuanDValencia@email.com' into newEmail (completed)" width="1920"/>
+                <img src="089053e88f9f354066f2fb9ba4f67e83c758be62b8a98f8565a4c6b965c2272f.png" title=" Juan Diego enters 'Ab1234' into newPassword" width="1920"/>
+                <img src="6e4a9e9f5f7f139ec406220ffb80cfc0195075960102289699122146eae213b2.png" title=" Juan Diego enters 'Ab1234' into newPassword (completed)" width="1920"/>
+                <img src="6e4a9e9f5f7f139ec406220ffb80cfc0195075960102289699122146eae213b2.png" title=" Juan Diego enters 'Ab1234' into confirmPassword" width="1920"/>
+                <img src="49311a3146f55ce4db8d420552fc01469f1aee60e501a9354adc06db7092af07.png" title=" Juan Diego enters 'Ab1234' into confirmPassword (completed)" width="1920"/>
+                <img src="16d5ea42e1fe0109cf603debe4853ee4565b899fefa648d79f2558f52b31589e.png" title=" Juan Diego clicks on checkConditions" width="1920"/>
+                <img src="18123c52570128d4497ac33c198308d93b2ebd000f38df1bcb39014b61327de4.png" title=" Juan Diego clicks on checkConditions (completed)" width="1920"/>
+                <img src="18123c52570128d4497ac33c198308d93b2ebd000f38df1bcb39014b61327de4.png" title=" Juan Diego clicks on register" width="1920"/>
+                <img src="c9a8f3a9c0c159c4cfd1948b617f76bf7151e7348619756fb288cf6603bb0b90.png" title=" Juan Diego clicks on register (completed)" width="1920"/>
+                <img src="c9a8f3a9c0c159c4cfd1948b617f76bf7151e7348619756fb288cf6603bb0b90.png" title=" Juan diego diligenciar formulario (completed)" width="1920"/>
+                <img src="c9a8f3a9c0c159c4cfd1948b617f76bf7151e7348619756fb288cf6603bb0b90.png" title=" And diligencia el formulario con los valores JuanDValencia4 JuanDValencia@email.com Ab1234 Ab1234 (completed)" width="1920"/>
+                <img src="c9a8f3a9c0c159c4cfd1948b617f76bf7151e7348619756fb288cf6603bb0b90.png" title=" Then Valida que el usuario JuanDValencia4 esta logueado correctamente" width="1920"/>
+                <img src="12af2354a7db63c224c89d877547b80db1c6087d5034870b952b3d903c3987ae.png" title=" Then get name user should be a string containing 'JuanDValencia4'" width="1920"/>
+                <img src="12af2354a7db63c224c89d877547b80db1c6087d5034870b952b3d903c3987ae.png" title=" Then get name user should be a string containing 'JuanDValencia4' (completed)" width="1920"/>
+                <img src="12af2354a7db63c224c89d877547b80db1c6087d5034870b952b3d903c3987ae.png" title=" Then Valida que el usuario JuanDValencia4 esta logueado correctamente (completed)" width="1920"/>
+                <img src="12af2354a7db63c224c89d877547b80db1c6087d5034870b952b3d903c3987ae.png" title=" Example #1: {userName=JuanDValencia4, email=JuanDValencia@email.com, password=Ab1234, confirmPassword=Ab1234} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.41</span>
+</div>
+</body>
+</html>
